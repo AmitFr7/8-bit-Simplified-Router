@@ -1,0 +1,199 @@
+$date
+	Fri Sep 17 10:28:22 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Router_TB $end
+$var wire 2 ! port [1:0] $end
+$var reg 8 " Address [7:0] $end
+$var reg 1 # clk $end
+$var reg 2 $ p [1:0] $end
+$var reg 1 % reset $end
+$var reg 1 & setup $end
+$scope module router_DUT $end
+$var wire 8 ' Address [7:0] $end
+$var wire 1 # clk $end
+$var wire 2 ( p [1:0] $end
+$var wire 1 % reset $end
+$var wire 1 & setup $end
+$var wire 3 ) index [2:0] $end
+$var wire 1 * found $end
+$var wire 2 + Port [1:0] $end
+$scope module address_column $end
+$var wire 8 , address_in [7:0] $end
+$var wire 1 # clk $end
+$var wire 1 % reset $end
+$var wire 1 & setup $end
+$var reg 1 * found $end
+$var reg 3 - index [2:0] $end
+$upscope $end
+$scope module port_column $end
+$var wire 1 # clk $end
+$var wire 1 * found $end
+$var wire 2 . p [1:0] $end
+$var wire 3 / port_index [2:0] $end
+$var wire 1 % reset $end
+$var wire 1 & setup $end
+$var reg 2 0 port_out [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 0
+bx /
+b10 .
+bx -
+b101010 ,
+bx +
+x*
+bx )
+b10 (
+b101010 '
+1&
+0%
+b10 $
+0#
+b101010 "
+bx !
+$end
+#5000
+1#
+#10000
+0#
+b0 $
+b0 (
+b0 .
+b11011100 "
+b11011100 '
+b11011100 ,
+#15000
+1#
+#20000
+0#
+b1 $
+b1 (
+b1 .
+b11111001 "
+b11111001 '
+b11111001 ,
+#25000
+1#
+#30000
+0#
+b101001 "
+b101001 '
+b101001 ,
+#35000
+1#
+#40000
+0#
+b10 $
+b10 (
+b10 .
+b11000110 "
+b11000110 '
+b11000110 ,
+#45000
+1#
+#50000
+0#
+b11 $
+b11 (
+b11 .
+b11011011 "
+b11011011 '
+b11011011 ,
+#55000
+1#
+#60000
+0#
+b0 $
+b0 (
+b0 .
+b10010011 "
+b10010011 '
+b10010011 ,
+#65000
+1#
+#70000
+0#
+b10 $
+b10 (
+b10 .
+b10101010 "
+b10101010 '
+b10101010 ,
+#75000
+1#
+#80000
+0#
+#81000
+b11011011 "
+b11011011 '
+b11011011 ,
+0&
+#85000
+1*
+b10 )
+b10 -
+b10 /
+b0 !
+b0 +
+b0 0
+1#
+#90000
+0#
+#91000
+b1110111 "
+b1110111 '
+b1110111 ,
+#95000
+b11 !
+b11 +
+b11 0
+0*
+b0 )
+b0 -
+b0 /
+1#
+#100000
+0#
+#104000
+b11000110 "
+b11000110 '
+b11000110 ,
+#105000
+1*
+b11 )
+b11 -
+b11 /
+b0 !
+b0 +
+b0 0
+1#
+#110000
+0#
+#115000
+b10 !
+b10 +
+b10 0
+1#
+#120000
+0#
+#121000
+1%
+#125000
+1#
+#130000
+0#
+#135000
+1#
+#140000
+0#
+#141000
