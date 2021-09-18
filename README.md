@@ -1,6 +1,6 @@
 # 8-bit Simplified Router (CAS)
 
-This is an implementation of an 8-bit Simplified Router (content addressed storage) in both Verilog HDL and Logisim.
+This is an implementation of an 8-bit Simplified Router (content-addressed storage) in both Verilog HDL and Logisim.
 
 * Verilog HDL - RTL design of the functionality as specified below.
 * Logisim - Gate-level implementation of the functionality as described below.
