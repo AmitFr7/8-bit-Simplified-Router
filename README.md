@@ -1,4 +1,6 @@
-This is an implementation of an 8-bit Simplified Router (contenet addressed storage) in both Verilog HDL and Logisim.
+# 8-bit Simplified Router (CAS)
+
+This is an implementation of an 8-bit Simplified Router (content addressed storage) in both Verilog HDL and Logisim.
 
 * Verilog HDL - RTL design of the functionality specified below.
 * Logisim - Gate-level implementation of the functionality as described below.
@@ -16,7 +18,7 @@ The router functionality consists of 2 phases:
 * Note that throughout both phases the Routing Table could be reset using the "reset" signal (which is an asynchronous active HIGH signal, and therefore will reset the table at any given time and will not be limited to constraints of the clock signal's period).
 
 
-**Project Files:** 
+## **Project Files:** 
 
 1. **Verilog HDL** - `router.sv` is the design's file and `router_TB.sv` is its test bench. `router_waveform.png` is a screenshot of the test bench waveform and `router_waveform_detailed` is another screenshot in which the shift registers' storage of the addresses' and the ports' columns are described throughout the simulation.
  
