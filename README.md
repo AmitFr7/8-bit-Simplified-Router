@@ -7,7 +7,7 @@ This is an implementation of an 8-bit Simplified Router (content addressed stora
 
 A router is a circuit which can be used to facilitate the routing of data packets from their source to their respective destinations. It does so by maintaining a table of pairs, each pair consists of an address and the output port to be used.
 
-The router receives a packet that consists of data and the address that the packet must be delivered to. The router then looks up the output port corresponding to the destination address, stored in a table as shown below. If such an entry exists for the destination address in the routing table, the router forwards the packet to the required port. If such an entry does not exist, the router routes the data packet to a default port (port 00 in that implementation.
+The router receives a packet that consists of data and the address that the packet must be delivered to. The router then looks up the output port corresponding to the destination address, stored in a table as shown below. If such an entry exists for the destination address in the routing table, the router forwards the packet to the required port. If such an entry does not exist, the router routes the data packet to a default port (port 00 in that implementation).
 
 The router functionality consists of 2 phases:
 
@@ -15,7 +15,7 @@ The router functionality consists of 2 phases:
 
 2. **Active Phase**: in that phase, any input address is now searched for in the Routing Table, and the output would be the port relevant for that specific address, as described above.
 
-* Note that throughout both phases the Routing Table could be reset using the "reset" signal (which is an asynchronous active HIGH signal, and therefore will reset the table at any given time and will not be limited to constraints of the clock signal's period).
+* Note that throughout both phases the Routing Table could be reset using the "reset" signal (which is an asynchronous active HIGH signal, and therefore would reset the table at any given time and will not be limited to constraints of the clock signal's periodic behavior).
 
 
 ## **Project Files:** 
