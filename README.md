@@ -20,6 +20,6 @@ The router functionality consists of 2 phases:
 
 ## **Project Files:** 
 
-1. **Verilog HDL** - `router.sv` is the design's file and `router_TB.sv` is its test bench. `router_waveform.png` is a screenshot of the test bench waveform and `router_waveform_detailed` is another screenshot in which the shift registers' storage of the addresses' and the ports' columns are described throughout the simulation.
+1. **Verilog HDL** - `router.sv` is the design's file and `router_TB.sv` is its test bench. `router_waveform.png` is a screenshot of the test bench waveform and `router_waveform_detailed.png` is another screenshot in which the shift registers' storage of the addresses' and the ports' columns are described throughout the simulation.
  
-2. **Logisim** - `8_bit_router.circ` is the Logisim file, and the additional .png files are the images of the circuit's modules themselves: `encoder(1).png`, `encoder(2).png`, `encoder(3).png`, `addresses.png`, `ports.png`, `compare(8).png`, and `router.png`.
+2. **Logisim** - `8_bit_router.circ` is the Logisim file, and the additional .png files are the images of the circuit's modules themselves: `encoder(1).png`, `encoder(2).png`, `encoder(3).png`, `addresses.png`, `ports.png`, `compare(8).png`, and finally `router.png`.
