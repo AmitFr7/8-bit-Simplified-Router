@@ -5,7 +5,7 @@ This is an implementation of an 8-bit Simplified Router (content-addressed memor
 * Verilog HDL - RTL design of the functionality as specified below.
 * Logisim - Gate-level implementation of the functionality as described below.
 
-A router is a circuit which can be used to facilitate the routing of data packets from their source to their respective destinations. It does so by maintaining a table of pairs, each pair consists of an address and the output port to be used.
+A router is a circuit which can be used to facilitate the routing of data packets from their source to their respective destinations. It does so by maintaining a table of pairs: each pair consists of an address and the output port to be used.
 
 The router receives a packet that consists of data and the address that the packet must be delivered to. The router then looks up the output port corresponding to the destination address, stored in a table as shown below. If such an entry exists for the destination address in the routing table, the router forwards the packet to the required port. If such an entry does not exist, the router routes the data packet to a default port (port 00 in that implementation).
 
