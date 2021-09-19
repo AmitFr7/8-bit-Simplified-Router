@@ -15,7 +15,7 @@ The router functionality consists of 2 phases:
 
 2. **Active Phase**: in that phase, any input address is now searched for in the Routing Table, and the output would be the port relevant for that specific address, as described above.
 
-* Note that throughout both phases the Routing Table could be reset using the "reset" signal (which is an asynchronous active HIGH signal, and therefore would reset the table at any given time and will not be limited to constraints of the clock signal's periodic behavior).
+* Note that throughout both phases, the Routing Table could be reset using the "reset" signal (which is an asynchronous active HIGH signal).
 
 
 ## **Project Files:** 
