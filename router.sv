@@ -38,7 +38,7 @@ module Addresses
       if (reset) // asynchronous active HIGH reset
         begin
           address[0] <= 8'h00;
-          address[0] <= 8'h00;
+	  address[1] <= 8'h00;
           address[2] <= 8'h00;
           address[3] <= 8'h00;
           address[4] <= 8'h00;
@@ -110,7 +110,7 @@ module Ports
           port[6] <= port[5];
           port[7] <= port[6];
         end
-      else if (found == 1) //setup 0, search for the input address' destination 							 port
+      else if (found == 1) //setup 0, search for the input address' destination port
         port_out <= port[port_index];
       else  // found==0: route to default port (00)
 		port_out <= 2'b00;
